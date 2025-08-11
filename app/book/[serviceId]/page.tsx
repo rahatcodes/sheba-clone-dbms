@@ -1,8 +1,9 @@
+
+'use client'
 // This enables static export for Next.js dynamic routes. Replace with real IDs if available.
 export function generateStaticParams() {
   return [{ serviceId: "1" }];
 }
-'use client'
 
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
